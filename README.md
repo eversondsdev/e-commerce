@@ -2,7 +2,7 @@
 
 ## 📊 Descrição do Projeto
 
-Este projeto tem como objetivo o desenvolvimento de um modelo conceitual de banco de dados para um sistema de E-Commerce, que abrange funcionalidades essenciais para o gerenciamento de clientes, produtos, pedidos, pagamentos, entregas, fornecedores e vendedores.
+Este projeto tem como objetivo o desenvolvimento de um modelo conceitual de banco de dados para um sistema de E-Commerce, o esquema lógico, que abrange funcionalidades essenciais para o gerenciamento de clientes, produtos, pedidos, pagamentos, entregas, fornecedores e vendedores. Foi adicionado também o script  de inserçoes dos dados e a criação de algumas querys.
 
 O modelo foi projetado utilizando o MySQL Workbench, com foco em garantir a integridade dos dados, a normalização das tabelas e o suporte à expansão futura.
 
@@ -43,6 +43,19 @@ Cada entrega possui um código de rastreamento e status de acompanhamento, permi
 ### 7. Fornecedor e Vendedor Terceiro
 
 Fornecedores e vendedores têm relações definidas com produtos, permitindo que diferentes entidades gerenciem seus catálogos de forma independente.
+
+
+## 🔍 Consultas e Regras de Negócio
+
+O banco de dados suporta consultas eficientes para:
+
+Listagem de pedidos por cliente;
+
+Consultar pedidos pagos e métodos de pagamento utilizados;
+
+Verificar estoque disponível e status dos produtos;
+
+Identificar vendedores que também são fornecedores.
 
 
 
