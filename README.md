@@ -1,4 +1,4 @@
-# E-Commerce - Modelo Conceitual de Banco de Dados
+# E-Commerce - Modelo Conceitual e Lógico de Banco de Dados
 
 ## 📊 Descrição do Projeto
 
